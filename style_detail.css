@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600,700,800,900');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section_1{
+   width: 1366px;
+   height: 119px;
+   padding-top: 63px;
+   padding-left: 98px;
+   margin: 0px auto;
+   box-sizing: border-box;
+}
+.logo a{
+    display: block;
+    text-decoration: none;
+    width: 185px;
+    height: 22px;
+    background: url("image/logo.png") no-repeat;
+    background-size: contain;
+    float: left;
+}
+.menu{
+    float: right;
+    margin-right: 211px;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    height: 22px;
+}
+.menu li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #8c8c8c;
+    text-align: center;
+}
+.menu li a:hover{
+    color: #212121;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+}
+.section_2{
+   width: 1366px;
+   height: 77px;
+   margin: 0px auto;
+   box-sizing: border-box;
+}
+.menu_2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    word-spacing: 40px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.menu_2 li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 28px auto;
+}
+.menu_2 li>a{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #6c6c6c;
+    text-align: center;
+}
+.menu_2 li>a:hover{
+    color: #212121;
+}
+.section_3{
+   font-family: "Montserrat", sans-serif;
+   width: 1366px;
+   height: 660px;
+   padding-top: 63px;
+   padding-left: 98px;
+   padding-right: 132px;
+   margin: 0px auto;
+   box-sizing: border-box;
+    margin-bottom: 245px;
+}
+.product_img{
+    width: 570px;
+    height: 651px;
+    text-align: center;
+    float: left;
+}
+.content{
+    margin-left: 622px;
+    text-align: center;
+}
+.content>h1{
+    display: inline-block;
+    margin-top: 40px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 23px;
+    height: 28px;
+    line-height: 28px;
+}
+.content>h3{
+    height: 10px;
+    line-height: 13px;
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+.content>h4{
+    line-height: 57px;
+    height: 57px;
+    color: #212121;
+    font-family: Gotham;
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 36px;
+    margin-bottom: 34px;
+}
+.content>h4 span{
+    font-size: 72px;
+    text-transform: uppercase;
+}
+.content>p{
+    text-align: left;
+}
+.content a{
+    display: inline-block;
+    width: 510px;
+    height: 71px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+    background-color: #f44336;
+    text-align: center;
+    line-height: 71px;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 4.4px;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 49px;
+}
+.content a:hover{
+    background: #f44336 url("image_detail/arrow.png") no-repeat 340px 23px;
+}
+.section_4{
+    width: 1366px;
+    height: 833x;
+    padding-top: 120px;
+    padding-left: 98px;
+    padding-right: 98px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.section_4>h3{
+    height: 35px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    float: left;
+    margin-bottom: 63px;
+}
+.product_2{
+    clear: both;
+    box-sizing: border-box; 
+}
+.product_2>a{
+    width: 370px;
+    height: 370px;
+    float: left;
+}
+.product_11{
+    background: url("image/product-11.png") no-repeat;
+    margin-right: 30px;
+    margin-bottom: 120px;
+}
+.product_12{
+    background: url("image/product-21.png") no-repeat;
+    margin-right: 30px;
+    margin-bottom: 120px;
+}
+.product_13{
+    background: url("image/product-31.png") no-repeat;
+    margin-bottom: 120px;
+}
+.explore a{
+    display: block;
+    text-decoration: none;
+    float: right;
+    width: 189px;
+    font-family: "Montserrat", sans-serif;
+    color: #212121;
+    letter-spacing: 3.6px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+.explore a:hover{
+    background: url("image/arrow.png") no-repeat 176px 26px;
+}
+.section_8{
+    width: 1366px;
+    height: 425px;
+    padding-left: 99px;
+    padding-right: 99px;
+    padding-top: 120px;
+    padding-bottom: 39px;
+    margin: 0px auto;
+    box-sizing: border-box; 
+    clear: both;
+    background-color: #f7f7f7;
+    font-family: "Montserrat", sans-serif;
+}
+.one, .two, .three{
+    float: left;
+    margin-right: 65px;
+}
+.three>h4,.two>h4,.one>h4{
+    height: 13px;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 24px;
+}
+.three>p,.one>p{
+    width: 230px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.two li{
+    list-style-type: none;
+    width: 200px;
+}
+.two li>a{
+    display: inline-block;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+    text-align: left;
+}
+.two{
+    width: 420px;
+    height: 113px;
+}
+.three{
+    float: left;
+    margin-bottom: 69px;
+    margin-right: -65px;
+}
+.fo{
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.two ul{
+    height: 63px;
+    display: inline-block;
+}
+.fo>span{
+    display: block;
+}
+.pole{
+    position: relative;
+}
+input[type="email"]{
+    width: 370px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    padding-left: 19px;
+    color: #6c6c6c;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 26px;
+    position: absolute;
+}
+input[type="image"]{
+    position: absolute;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    top: 40px;
+    left: 345px;
+}
+.crl{
+    height: 250px;
+}

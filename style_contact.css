@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600,700,800,900');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section_1{
+   width: 1366px;
+   height: 360px;
+   padding-top: 63px;
+   padding-left: 98px;
+   margin: 0px auto;
+   background-color: #f5f5f5; 
+   box-sizing: border-box;
+}
+.logo a{
+    display: block;
+    text-decoration: none;
+    width: 185px;
+    height: 22px;
+    background: url("image/logo.png") no-repeat;
+    background-size: contain;
+    float: left;
+}
+.menu{
+    float: right;
+    margin-right: 211px;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    height: 22px;
+}
+.menu li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #8c8c8c;
+    text-align: center;
+}
+.menu li a:hover{
+    color: #212121;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+}
+.section_1>h1{
+    height: 58px;
+    color: #212121;
+    font-family: "Montserrat", sans-serif;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 72px;
+    clear: both;
+    padding-top: 168px;
+}
+.section_2{
+    width: 1170px;
+    height: 560px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin: 0px auto;
+    font-family: "Montserrat", sans-serif;
+}
+.adres_1, .adres_2, .adres_3{
+    width: 370px;
+    height: 370px;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    display: inline-block;
+    text-align: center;
+    padding-top: 48px;
+    box-sizing: border-box;
+    margin-top: 71px;
+}
+.adres_1, .adres_2{
+    margin-right: 25px;
+}
+.section_2 img{
+    margin-bottom: 34px;
+}
+.section_2 h1{
+    margin-bottom: 23px;
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.section_2 p{
+    display: inline-block;
+    width: 271px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -1px;
+}
+.section_2 p>span{
+    color: #212121;
+    font-weight: 700;
+}
+.section_8{
+    width: 1366px;
+    height: 425px;
+    padding-left: 99px;
+    padding-right: 99px;
+    padding-top: 120px;
+    padding-bottom: 39px;
+    margin: 0px auto;
+    box-sizing: border-box; 
+    clear: both;
+    background-color: #f7f7f7;
+    font-family: "Montserrat", sans-serif;
+}
+.one, .two, .three{
+    float: left;
+    margin-right: 65px;
+}
+.three>h4,.two>h4,.one>h4{
+    height: 13px;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 24px;
+}
+.three>p,.one>p{
+    width: 230px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.two li{
+    list-style-type: none;
+    width: 200px;
+}
+.two li>a{
+    display: inline-block;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+    text-align: left;
+}
+.two{
+    width: 420px;
+    height: 113px;
+}
+.three{
+    float: left;
+    margin-bottom: 69px;
+    margin-right: -65px;
+}
+.fo{
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.two ul{
+    height: 63px;
+    display: inline-block;
+}
+.fo>span{
+    display: block;
+}
+.pole{
+    position: relative;
+}
+input[type="email"]{
+    width: 370px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    padding-left: 19px;
+    color: #6c6c6c;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 26px;
+    position: absolute;
+}
+input[type="image"]{
+    position: absolute;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    top: 40px;
+    left: 345px;
+}
+.crl{
+    height: 250px;
+}
